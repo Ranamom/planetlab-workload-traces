@@ -7,5 +7,5 @@ These files are originated from [CloudSim](http://cloudbus.org/cloudsim).
 Each sub-directory contains traces from a specific date. 
 Each file contains CPU utilization measured at every 5 minutes in PlanetLab VMs.
 
-If you want to create simulations using such a files,
+If you want to create simulations using such files,
 check out [CloudSim Plus](http://cloudsimplus.org) simulation framework.
