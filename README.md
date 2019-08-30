@@ -9,3 +9,7 @@ Each file contains CPU utilization measured at every 5 minutes in PlanetLab VMs.
 
 If you want to create simulations using such files,
 check out [CloudSim Plus](http://cloudsimplus.org) simulation framework.
+
+If you want to join the same trace file from multiple days into a single file, 
+run the [join.sh](join.sh) that it will do that for all trace files,
+placing the concatenated files inside an "out" dir.
