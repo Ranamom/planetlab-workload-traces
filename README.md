@@ -13,3 +13,8 @@ check out [CloudSim Plus](http://cloudsimplus.org) simulation framework.
 If you want to join the same trace file from multiple days into a single file, 
 run the [join.sh](join.sh) that it will do that for all trace files,
 placing the concatenated files inside an "out" dir.
+The script counts the resulting number of lines for each concatenated file
+and adds such a data as a comment in the first line of each trace.
+You can use such an information when creating a `UtilizationModelPlanetLab`
+in CloudSim Plus, so that an array with the correct size is created
+to store the values read from a trace file.
